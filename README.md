@@ -1,1 +1,0 @@
-# bubligamer-tech.github.io
