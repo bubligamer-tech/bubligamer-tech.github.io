@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es" >
+
+<head>
+
+<meta charset="UTF-8">
+
+<!-- BOTONES -->
+
+<style>
+ 
+/* ESPACIADO ENTRE BOTONES */
+
+    #b4 { position:relative;
+          left: 120px;
+          top: 180px; }
+    #b5 {  position:relative;
+          left: 120px;
+          top: 175px; }
+    #b6 { position:relative;
+          left: 120px;
+          top: 200px; }
+    #b7 {  position:relative;
+          left: 120px;
+          top: 195px; }
+    #b8 { position:relative;
+          left: 121px;
+          top: 205px; }
+    #b9 { position:relative;
+          left: 119px;
+          top: 195px; }
+    #i1 { position:absolute;
+          left: 200px;
+          top: 20px; }
+          
+
+/* ESPACIADO ENTRE BOTONES */
+
+</style>
+
+<style>
+   
+/* DISEÑO BOTONES */
+
+   .boton1 {
+        background-color: rgb(26, 28, 28);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-family: "Comic Sans MS";
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        -webkit-text-stroke: 0.5px black;
+        display: inline-block;
+        text-decoration: none; }
+ 
+    #b4 { font-family : 'Arial Narrow Bold';
+        font-size : 15px;
+        -webkit-text-stroke: 0; }
+    #b5 {  color:rgb(255, 255, 255); 
+        -webkit-text-stroke: 0.3px black; }
+    #b6 { font-family : 'Arial Narrow Bold';
+        font-size : 15px;
+        -webkit-text-stroke: 0; }
+    #b7 { color:rgb(255, 255, 255); 
+        -webkit-text-stroke: 0.3px black; }
+    #b8 { font-family : 'Arial Narrow Bold';
+        font-size : 12px; 
+        color: rgb(230, 22, 22); 
+        visibility: hidden; }
+
+ /* DISEÑO BOTONES */
+
+</style>
+
+<style>  
+
+/* ANIMACIONES */
+
+    .boton1:hover {
+        background-color: rgb(32, 32, 32);
+        transform: scale(1.02); }
+        
+</style>
+
+<style>
+    .boton1:active {
+        transform: scale(1.01);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); }
+
+/* ANIMACIONES */
+
+</style> 
+
+<!--  BOTONES  -->
+
+<style>
+    body {
+    background-color: #151415; }
+</style>
+
+<style>
+    .comicsans {
+    font-family: "Comic Sans MS"; }
+</style>
+
+<style>
+    .outline {
+        -webkit-text-stroke: 1.5px black; }
+    
+</style>
+
+<style>
+    .app { 
+    position: relative;    
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+    margin: 0 auto; }
+</style>
+
+<style> 
+ .i1 {
+    border-radius: 15px;
+    width: 120px;
+    height: 120px; 
+    top: 0px;
+    left: 0px; }
+    
+</style>
+
+</head>
+
+<body>
+ 
+<div class="app">
+
+<div id="b5">Gmailiñomenguiño</div>
+
+<img src="i1.png" id="i1" class="i1">
+
+<input
+    type="text"
+    class="boton1"
+    id="b4"
+    placeholder="Escribí acá..."
+>
+
+<div id="b7">Contrapupecreto</div>
+
+<input
+    type="password"
+    class="boton1"
+    id="b6"
+    placeholder="Escribí acá..."
+>
+
+<div id="b8">Error, contrapupecreto o gmailiñomenguiño inválido.</div>
+
+<button
+    type="button"
+    class="boton1"
+    id="b9"
+    onclick="login()">
+    Enviar
+</button>
+
+<script src="login.js"></script>
+
+</div>
+
+</body>
+</html>
